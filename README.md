@@ -97,9 +97,9 @@ For view schematic or gds file, go to OpenLane directory:
 cd OpenLane
 ```
 
-To view schematics, change (file_name) with your file name then execute following command:
+To view schematics, give path of RUN_(time_stamp) folder which is inside the run folder:
 ```bash
-sudo python3 ./gui.py --viewer klayout /path/to/your/design/runs/RUN_2024.09.09_03.04.44
+sudo python3 ./gui.py --viewer klayout /path/to/your/design/runs/RUN_(time_stamp)
 ```
 
 
