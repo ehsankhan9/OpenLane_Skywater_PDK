@@ -74,6 +74,16 @@ klayout -v
 
 ## Run
 
+### Directory Structure
+
+project/
+├── src/
+│   ├── all_design_files.sv
+│
+├── config.json
+│   
+└── constraint.sdc
+
 ### To Synthesize Design
 
 Change directory:
