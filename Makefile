@@ -42,8 +42,4 @@ test:
 	cd OpenLane && make test
 	
 install_klayout:
-	git clone https://github.com/KLayout/klayout.git
-	cd klayout
-	./build.sh -qt5 -ruby -python
-	make -j$(nproc)
-	sudo make install
+	sudo apt install klayout
