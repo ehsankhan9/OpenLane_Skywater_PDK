@@ -33,7 +33,7 @@ install_docker:
 install_openlane:
 	@echo "Installing OpenLane..."
 	git clone https://github.com/The-OpenROAD-Project/OpenLane
-	cd OpenLane && make
+	cd OpenLane && sudo make
 	@echo "OpenLane Installed."
 	
 install_skywater_pdk:
