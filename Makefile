@@ -44,11 +44,11 @@ install_skywater_pdk:
 	git submodule update --init libraries/sky130_fd_pr/latest && \
 	git submodule update --init libraries/sky130_fd_sc_hd/latest && \
 	git submodule update --init libraries/sky130_fd_sc_hvl/latest && \
-	make timing
+	sudo make timing
 	@echo "Skywater PDK Installed."
 test:
 	@echo "Testing OpenLAne...."
-	cd OpenLane && make test
+	cd OpenLane && sudo make test
 	
 install_klayout:
 	@echo "Installing Klayout..."
